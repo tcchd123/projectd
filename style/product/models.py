@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class product(models.Model):
+class Product(models.Model):
     name=models.CharField(max_length=500)
     specialize=models.CharField(max_length=500)
     price = models.DecimalField(
